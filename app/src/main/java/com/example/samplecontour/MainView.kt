@@ -37,11 +37,10 @@ class MainView(context:Context,attrs: AttributeSet? = null):ContourLayout(contex
         typeface = Typeface.create("sans-serif-medium", Typeface.NORMAL)
     }
      var password = EditText(context).apply{
-        hint = "Password"
-       // inputType = InputType.TYPE_TEXT_VARIATION_PASSWORD
+         hint = "Password"
          inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
-        textSize = 18f
-        typeface = Typeface.create("sans-serif-medium", Typeface.NORMAL)
+         textSize = 18f
+         typeface = Typeface.create("sans-serif-medium", Typeface.NORMAL)
     }
 
     private var confirmPassword = EditText(context).apply{
